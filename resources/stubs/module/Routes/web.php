@@ -11,8 +11,11 @@
 |
 */
 
-Route::group(['prefix' => 'DummySlug'], function () {
-    Route::get('/', function () {
-        dd('This is the DummyName module index page. Build something great!');
-    });
+Route::group(['prefix' => 'DummySlug', 'middleware' => ['auth']], function () {
+
+    // ---------------------------------------------------------------------------------------------------------
+    // ------------------------------------------------------------------------------------- Index
+    // ---------------------------------------------------------------------------------------------------------
+    Route::get('/',         'IndexController@index')->name("DummySlug.index");
+
 });
