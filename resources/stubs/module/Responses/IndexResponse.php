@@ -1,8 +1,4 @@
 <?php
-/**
- * @author Rob Krater <rkrater@wcboe.org>
- * Date: 11/3/2017 1:42 PM
- */
 
 namespace DummyNamespace\Responses;
 

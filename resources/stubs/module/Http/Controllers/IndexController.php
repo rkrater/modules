@@ -1,10 +1,10 @@
 <?php
 
-namespace DummyNamespace\Responses;
+namespace DummyNamespace\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use DummyNamespace\Responses\IndexResponse;
+use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
