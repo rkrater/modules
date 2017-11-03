@@ -3,6 +3,7 @@
 namespace DummyNamespace\Responses;
 
 use App\Responses\BaseAdminResponse;
+use App\Responses\Items\Notification\Group\Section\Item;
 
 abstract class SiteBase extends BaseAdminResponse
 {
